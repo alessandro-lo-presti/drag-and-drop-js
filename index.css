@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag-container {
+  width: 500px;
+  padding: 25px 50px;
+  margin-bottom: 50px;
+  background-color: #333;
+}
+
+.draggable {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.dragging {
+  background-color: tomato;
+  color: white;
+}
